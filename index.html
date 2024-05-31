@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon"  href="img/J.png">
+    <title>Portfolio</title>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#Inicio" class="logo"><img src="img/logo.png" width="250px" height="50px"></a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobremi">Sobre mi</a>
+            <a href="#skills">Habilidades</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contactos">Contacto</a>
+        </nav>
+    </header>
+
+    <!--Empieza inicio-->
+    <section class="presen" id="inicio">
+        <div class="imgpren"> 
+        <img src="img/yo1.png" class="img1">
+        </div>
+        <div class="iniciog">
+        <h1>Fernández Gabriela</h1>
+        <h2>Tecnico Programador</h2>
+    
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/gabbrielafernandez37/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61560184449365"><i class="fa-brands fa-facebook"></i></a>
+            </div></div>
+        </section>
+        <!--termina inicio-->
+        <!--Empieza sobre mi-->
+        <section class="reparo" id="sobremi">
+        
+            <div class="mivid"> 
+                <video src="img/videoyo.mp4" controls width="400px" height="700px"></video>
+            </div>
+            <div class="infor">
+            <img src="img/tittle.png" width="460px" height="100px">
+            <h1>Soy una persona responsable, paciente, trabajadora, creativa, puntual y me gusta aprender cosas nuevas cada día. Algunos de mis gustos personales es pintar, dibujar, escuchar musica, jugar videojuegos y trabajar en equipo.</h1>
+                <a class="btn" download="CV(Fernandez Gabriela)" href="CV/CVFernandezGabriela.pdf">Descargar CV <i class="fa-solid fa-download"></i></a> 
+        </div>
+        </section>
+        <!--termina sobre mi-->
+
+    <!--Skills-->
+    <section id="skills">
+    <div class="containers">
+  <div class="main-title">
+            <h1>Mis Habilidades</h1>
+        </div>
+          <div class="row">
+              <section class="col">
+                <div class="skills-containers">
+                    
+                    <div class="skill">
+                        <div class="subject">HTML</div>
+                        <div class="progress-bar" value="70%">
+                            <div class="progress-line" style="max-width: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="subject">CSS</div>
+                        <div class="progress-bar" value="65%">
+                            <div class="progress-line" style="max-width: 65%"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">MySql</div>
+                        <div class="progress-bar" value="60%">
+                            <div class="progress-line" style="max-width: 60%"></div>
+                        </div>
+                    </div>
+    
+                    <div class="skill">
+                        <div class="subject">Php</div>
+                        <div class="progress-bar" value="55%">
+                            <div class="progress-line" style="max-width: 55%"></div>
+                        </div>
+                    </div>
+    
+                </div>
+            </section>
+        </section>
+        </div>
+    
+    </div>
+</section>
+
+    <!--Proyectos-->
+    <section class="Proyecyos" id="proyectos">
+        <h2 class="heading"><span>Proyectos</span></h2>
+        
+        <div class="Proyecyos-containerss">
+            <div class="Proyecyos-box">
+                <img src="img/bailarin.jpg" alt="">
+                <div class="Proyecyos-info">
+                    <h4>Cabezon</h4>
+                    <p>Este proyecto lo hice en el año 2022, es un robot que hice con unos compañeros del colegio. La funcion de este Robot es Bailar.</p>
+                </div>
+            </div>
+
+            <div class="Proyecyos-box">
+                <img src="img/tacho.jpg" alt="">
+                <div class="Proyecyos-info">
+                    <h4>Tachito</h4>
+                    <p>Este proyecto tambien lo hice en el año 2022, que al igual que el cabezon lo hice con unos compañeros de mi clase. La funcion de este robot es comer pedasitos de basura</p>
+                </div>
+            </div>
+
+            <div class="Proyecyos-box">
+                <img src="img/atat.jpg" alt="">
+                <div class="Proyecyos-info">
+                    <h4>AT-AT</h4>
+                    <p>Este proyecto lo hice el año 2023, que al igual de los demas lo hice con compañeros. la funcion de este robot es caminar y estaba inspirado en star world</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--empieza contactos-->
+    <section class="contactos" id="contactos">
+        <h1>Contactame</h1>
+        <form action="https://formsubmit.com/athinaarancibia@gmail.com" method="post">
+             <input type="text" class="input-50" placeholder="Nombre" name="Nombre" required>
+             <br>
+            <input type="email" class="input-50" placeholder="Email" name="Email" required>
+            <br>
+            <input type="text" class="input-50" placeholder="asunto" name="asunto" required>
+            <br>
+            <input type="text" class="input-100" placeholder="Mensaje" name="Mensaje" required>
+            <br>
+            
+            <buttom class="boton" name="enviar">Enviar Mensaje</buttom>
+            
+            <input type="hidden" name="_next" value="https://portfolioarancibia.netlify.app/">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+        <div class="contact">
+    </section>
+<!--termina contactos-->
+    <!--empieza footer-->
+    <br>
+    <footer class="footer">
+        <div class="social">
+                <a href="https://app.netlify.com/user/settings#profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/julsaaaa"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/gabbrielafernandez37/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61560184449365"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p class="copyright">
+            @Fernández Gabriela
+        </p>
+    </footer>
+    <!--empieza footer-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
