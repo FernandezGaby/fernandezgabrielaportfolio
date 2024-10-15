@@ -222,17 +222,24 @@ span{
 
 
 /*Skills*/
+.skills{
+ background-image: url("img/fondo5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
+}
 .containers{
 	position: relative;
-	width: 100%;
 	padding: 30px 10%;
-    background-color: rgb(16, 16, 16);;
+    width: 100%;
+    
 }
 .containers .main-title{
 	max-width: 700px;
 	margin: 0px auto;
 	text-align: center;
 	font-family: helvetica;
+    margin-bottom: 4rem;
 }
 .containers .main-title h1{
 	position: relative;
@@ -404,14 +411,19 @@ span{
 /*Proyecyos*/
 .heading{
     text-align: center;
-    color: #cc00ff;
-    font-size: 10rem;
+    color: #fb00ef;
+    font-size: 12rem;
+    -webkit-text-stroke: 1px rgba(236, 236, 236, 0.765);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .Proyecyos{
-    background: var(--bg-color);
+    background-image: url("img/fondo6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;   
 }
 .Proyecyos h2{
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
 }
 .Proyecyos-containerss{
     display: grid;
@@ -469,12 +481,17 @@ span{
 
 /*Contacto*/
 .contactos{
+    background-image: url("img/Fondo8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
     display:block;
     margin-top: 50px;
 }
+
 .contactos h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #0066db90;
+    color: #0066dbe2;
     font-size: 8rem;
     text-align: center;
     margin-bottom: 0;
@@ -563,7 +580,10 @@ span{
     bottom: 0;
     width: 100%;
     padding: 40px 0;
-    background-color: var(--second-bg-color);
+    background-image: url("img/fondo7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
 }
 .footer .social{
     text-align: center;
